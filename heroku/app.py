@@ -1,6 +1,5 @@
 import os
 import json
-from os import environ
 from flask import Flask, request
 
 
