@@ -21,8 +21,8 @@ These is the sample Webhook Flask app for WhatsApp Cloud API. You can read more 
 2. [Heyoo WhatsApp API Python Wrapper](https://github.com/Neurotech-HQ/heyoo)
 
 
-## Related
-1. [Heyoo WhatsApp API Python Wrapper](https://github.com/Neurotech-HQ/heyoo)
+## Related WhatsApp Cloud API Wrappers
+1. [Heyoo Python](https://github.com/Neurotech-HQ/heyoo)
 2. [WhatsApp Cloud API PHP Wrapper ](https://github.com/pro-cms/whatsappcloud-php)
 3. [Heyoo Javascript](https://github.com/JS-Hub-ZW/heyooh)
 
