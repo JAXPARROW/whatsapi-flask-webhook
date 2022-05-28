@@ -13,6 +13,16 @@ messenger = environ.get("API_TOKEN") #input api token here
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
 
 
+
+
+@app.route("/", methods=["GET"])
+def home():
+    if request.method == "GET":
+        return "Hello, It Works"
+        
+
+
+
 @app.route("/whatsapi", methods=["GET", "POST"])
 def hook():
     if request.method == "GET":
