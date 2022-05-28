@@ -50,4 +50,4 @@ def hook():
 
 
 if __name__ == "__main__":
-    app.run(port=int(environ.get("PORT")), debug=environ.get("DEBUG")) #Set debug boolean and port in environment variables
+    app.run(port=5000, debug=environ.get("DEBUG")) #Set debug boolean and port in environment variables
