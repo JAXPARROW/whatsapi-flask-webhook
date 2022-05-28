@@ -1,18 +1,16 @@
-import os
-import json
-from flask import Flask, request
+from flask import Flask
 
 
 app = Flask(__name__)
 
 
-
-@app.route("/")
-def home():
-    if request.method == "GET":
-        return "Hello, It Works"
-    
+@app.route('/')
+def index():
+    return "Hello, It Works"
 
 
-if __name__ == "__main__":
+
+
+
+if __name__ == '__main__': 
     app.run(debug=True)
