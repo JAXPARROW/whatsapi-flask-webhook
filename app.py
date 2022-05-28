@@ -1,11 +1,12 @@
 import os
 import json
+from heyoo import WhatsApp
 from os import environ
 from flask import Flask, request
 
 
 
-messenger = environ.get("TOKEN") #input token here
+messenger = WhatsApp(environ.get("TOKEN")) #input token here
 
 
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
