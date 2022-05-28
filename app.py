@@ -5,7 +5,7 @@ from flask import Flask, request
 
 
 
-messenger = environ.get("API_TOKEN") #input api token here
+messenger = environ.get("TOKEN") #input token here
 
 
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
@@ -18,12 +18,15 @@ app = Flask(__name__)
 def index():
     return "Hello, It Works"
 
+
+
 @app.route("/whatsapi", methods=["GET", "POST"])
 def hook():
     if request.method == "GET":
         if request.args.get("hub.verify_token") == VERIFY_TOKEN:
             return request.args.get("hub.challenge")
         return "Invalid verification token"
+
 
     data = request.get_json()
     changed_field = messenger.changed_field(data)
