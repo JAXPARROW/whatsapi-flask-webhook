@@ -3,7 +3,7 @@
 These is the sample Webhook Flask app for WhatsApp Cloud API. You can read more from [Webhooks](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/set-up-webhooks) product, powered by [Flask on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python).
 
 
-1. [Heyoo](heroku](https://github.com/JAXPARROW/heyoo) - Unofficial python wrapper to WhatsApp Cloud API.
+1. [Heyoo](https://github.com/JAXPARROW/heyoo) - Unofficial python wrapper to WhatsApp Cloud API.
 
 ## Setup
 
