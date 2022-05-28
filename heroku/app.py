@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def home():
     if request.method == "GET":
         return "Hello, It Works"
