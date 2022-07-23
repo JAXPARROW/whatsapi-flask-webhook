@@ -12,6 +12,9 @@ messenger = WhatsApp(environ.get("TOKEN")) #this should be writen as
 
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
 
+#to be tested in prod environment
+# messenger = WhatsApp(os.getenv("heroku whatsapp token"),phone_number_id='105582068896304')
+# VERIFY_TOKEN = "heroku whatsapp token"
 
 app = Flask(__name__)
 
