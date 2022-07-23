@@ -6,7 +6,8 @@ from flask import Flask, request
 
 
 
-messenger = WhatsApp(environ.get("TOKEN")) #You can use any random characters in here
+messenger = WhatsApp(environ.get("TOKEN")) #this should be writen as 
+#WhatsApp(token = "inpust accesstoken", phone_number_id="input phone number id") #messages are not recieved without this pattern
 
 
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
