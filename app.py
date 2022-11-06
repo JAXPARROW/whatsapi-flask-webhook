@@ -2,11 +2,11 @@ import os
 import json
 from heyoo import WhatsApp
 from os import environ
-from flask import Flask, request
+from flask import Flask, request, make_response
 
 
 
-messenger = WhatsApp(environ.get("TOKEN")) #this should be writen as 
+messenger = WhatsApp(environ.get("TOKEN"), phone_number_id=environ.get("PHONE_NUMBER_ID")) #this should be writen as 
 #WhatsApp(token = "inpust accesstoken", phone_number_id="input phone number id") #messages are not recieved without this pattern
 
 
