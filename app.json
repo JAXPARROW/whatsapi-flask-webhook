@@ -12,6 +12,6 @@
   ],
   "stack": "heroku-22",
   "repository": "https://github.com/JAXPARROW/whatsapi-flask-webhook",
-  "success_url": "/welcome"
+  "success_url": "/"
   
 }

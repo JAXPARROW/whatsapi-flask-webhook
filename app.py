@@ -28,7 +28,7 @@ app = Flask(__name__)
 
 
 
-@app.route('/Welcom')
+@app.route('/')
 def index():
     return "Hello, It Works"
 
