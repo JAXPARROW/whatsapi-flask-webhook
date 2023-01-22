@@ -1,4 +1,16 @@
 {
-  "name": "Whatsapi Web Hook",
-  "repository": "https://github.com/JAXPARROW/whatsapi-flask-webhook"
+  "name": "These is the sample Webhook Flask app for WhatsApp Cloud API, powered by Flask on Heroku",
+  "description": "This app does one little thing, and does it well.",
+  "developer":"Jackson Linus",
+  "e-mail":"jacksonlinus95@gmail.com",
+  "website":"https://jacksonlinus.com",
+  "keywords": [
+    "productivity",
+    "WhatsApp Cloud API",
+    "Heyoo",
+    "WhatsApp Business"
+  ],
+  "repository": "https://github.com/JAXPARROW/whatsapi-flask-webhook",
+  "success_url": "/welcome"
+  
 }
